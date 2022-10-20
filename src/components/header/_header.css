@@ -1,0 +1,10 @@
+header{
+    height: 80px;
+    background-color: rgb(36, 36, 36);
+    filter: drop-shadow(0 0 0.3rem rgba(76, 64, 53, 0.575));
+}
+
+header img{
+    height: 80px;
+    padding-left: 30px;
+}

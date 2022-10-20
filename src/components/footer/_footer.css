@@ -1,0 +1,27 @@
+footer{
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+footer h4{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+footer ul{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+footer a{
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+}

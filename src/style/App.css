@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boldText{
+    font-weight: bold;
+}
+
+/* FLEXBOX CONTAINER */
+
+.constructor{
+    background-color: rgb(240, 240, 238);
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    text-align: center;
+    padding: 3rem;
+}
+
+.constructor div{
+    padding: 0px 10px;
+}
+
+.constructor h1{
+    font-family: Trebuchet MS;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+/* BUDGETDIVS */
+
+.budgetInput{
+    background-color: #cccbcb;
+    border: #252525 solid px;
+    border-right: dotted #252525 8px;
+    border-radius: 10px 0px 0px 10px;
+    color: #252525;
+    min-width: 400px;
+}
+
+.budgetExpenses{
+    background-color: #252525;
+    border-radius: 0px 10px 10px 0px;
+    color: #d4d4d4;
+    min-width: 400px;
+}
+
+/* FORM STYLING */
+
+form {
+    margin-bottom: 70px;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=text]:focus,  input[type=number]:focus  {
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+.btnDeposit{
+    background-color: #64bd9c;
+}
+
+.btnDeposit:hover{
+    background-color: #3f8b70;
+}
+
+.btnWithdrawn{
+    background-color: #e68a8a;
+}
+
+.btnWithdrawn:hover{
+    background-color: #b96565;
+}
+
+label {
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* MY WALLET STYLE */
+.myWallet{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myWallet p{
+    flex: 40%;
+}
+
+#pBudget, #pWithdraw, #pBalance{
+    font-weight: bold;
+}
+
+#pBudget{
+    color: #64bd9c;
+}
+
+#pWithdraw{
+    color: #e68a8a;
+}
+
+#pBalance{
+    font-size: large;
+}
+
+/* LIST ITEM STYLE */
+.liConstructor{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px #e7e3e3;
+}
+
+.liConstructor p{
+    flex: 40%;
+}
